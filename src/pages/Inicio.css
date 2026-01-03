@@ -1,0 +1,16 @@
+.inicio {
+    display: flex;
+    flex-direction: column;
+}
+.inicio section h2 {
+    padding-left: 1rem;
+}
+.inicio section p {
+    padding-left: 1rem;
+}
+.inicio video {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

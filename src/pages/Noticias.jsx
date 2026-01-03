@@ -1,0 +1,119 @@
+import './Noticias.css'
+
+function Noticias() {
+  return (
+    <div className='noticias'>
+      <main>
+        <header>
+          <h2>
+            Noticias Recientes
+          </h2>
+        </header>
+        <article>
+          <a href="https://www.telemundowashingtondc.com/noticias/salud/fda-vacunas-covid-19-ninos-memorando-expertos/2356268/" target="_blank">
+            <img src="img/Noticias/Noticias Recientes/FDA dice que vacunas contra el COVID-19 mataron a 10 niños; expertos lo contradicen.webp" />
+          </a>
+          <div>
+            <header>
+              <a href="https://www.telemundowashingtondc.com/noticias/salud/fda-vacunas-covid-19-ninos-memorando-expertos/2356268/" target="_blank">
+                <h3>
+                  FDA dice que vacunas contra el COVID-19 mataron a 10 niños;
+                  expertos lo contradicen
+                </h3>
+              </a>
+            </header>
+            <p>
+              Expertos que revisaron el memorando afirman que se está haciendo un uso indebido de
+              la información de VAERS, un sitio web que advierte que los envíos pueden contener
+              información inexacta, incompleta o sesgada.
+            </p>
+          </div>
+        </article>
+        <article>
+          <a href="https://www.bbc.com/mundo/articles/c8636434vpdo" target="_blank">
+            <img src="img/Noticias/Noticias Recientes/5 años de la pandemia 4 aspectos positivos que nos dejó el mayor experimento psicológico de la historia.webp" />
+          </a>
+          <div>
+            <header>
+              <a href="https://www.bbc.com/mundo/articles/c8636434vpdo" target="_blank">
+                <h3>
+                  5 años de la pandemia: 4 aspectos positivos que nos dejó el
+                  "mayor experimento psicológico de la historia"
+                </h3>
+              </a>
+            </header>
+            <p>
+              Era 2020 y la entonces profesora en psicología de la salud de la Universidad de Vrije
+              en Bruselas, Elke Van Hoof, describía así al confinamiento derivado de la pandemia de
+              covid-19.
+            </p>
+          </div>
+        </article>
+        <article>
+          <a href="https://www.agenciasinc.es/Noticias/Una-vacuna-intranasal-experimental-elimina-el-virus-de-la-covid-19-en-ratones" target="_blank">
+            <img src="img/Noticias/Noticias Recientes/Una vacuna intranasal experimental elimina el virus de la covid-19 en ratones.jpg" />
+          </a>
+          <div>
+            <header>
+              <a href="https://www.agenciasinc.es/Noticias/Una-vacuna-intranasal-experimental-elimina-el-virus-de-la-covid-19-en-ratones" target="_blank">
+                <h3>
+                  Una vacuna intranasal experimental elimina el virus de la covid-19 en ratones
+                </h3>
+              </a>
+            </header>
+            <p>
+              Un equipo del Consejo Superior de Investigaciones Científicas ha desarrollado una
+              novedosa vacuna de nueva generación y administración intranasal frente al virus
+              SARS-CoV-2 que protege frente a las variantes más recientes en los ensayos
+              preclínicos realizados en ratones.
+            </p>
+          </div>
+        </article>
+        <nav>
+          <section>
+            <a>1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">8</a>
+            <a href="#">9</a>
+            <a href="#">&gt;</a>
+            <a href="#">&gt;&gt;</a>
+          </section>
+        </nav>
+      </main>
+      <aside>
+        <header>
+          <h2>
+            Noticias Destacadas
+          </h2>
+        </header>
+        <article>
+          <a href="https://news.un.org/es/story/2024/10/1533396" target="_blank">
+            <img src="img/Noticias/Noticias Destacadas/Acabemos con la «amnesia colectiva» sobre el COVID-19.jpg" />
+            <header>
+              <h3>
+                Acabemos con la «amnesia colectiva» sobre el COVID-19
+              </h3>
+            </header>
+          </a>
+        </article>
+        <article>
+          <a href="https://www.unotv.com/estados/baja-california-sur/este-sabado-aplicaran-vacunas-contra-influenza-covid-19-y-mas-en-la-paz/" target="_blank">
+            <img src="img/Noticias/Noticias Destacadas/Este sábado aplicarán vacunas contra influenza, COVID-19 y más en La Paz.jpg" />
+            <header>
+              <h3>
+                Este sábado aplicarán vacunas contra influenza, COVID-19 y más en La Paz
+              </h3>
+            </header>
+          </a>
+        </article>
+      </aside>
+    </div>
+  )
+}
+
+export default Noticias

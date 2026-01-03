@@ -1,0 +1,26 @@
+.header {
+    display: grid;
+    background-color: lightskyblue;
+    grid-template-columns: calc(var(--header-img) + 0.5rem) auto;
+    grid-template-rows: auto;
+    column-gap: 0.5rem
+}
+.header img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+
+    width: var(--header-img);
+    height: var(--header-img);
+
+    margin-left: 0.5rem;
+}
+.header h1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}

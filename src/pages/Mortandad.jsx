@@ -1,0 +1,74 @@
+import './Mortandad.css'
+
+function Mortandad() {
+  return (
+    <main className='mortandad'>
+      <header>
+        <h2>Información general sobre la mortandad del COVID-19</h2>
+      </header>
+      <section>
+        <h3>Muertes totales estimadas</h3>
+        <p>
+          Durante la pandemia de COVID-19 se estimaron alrededor de 6.9 millones de muertes
+          confirmadas en el mundo, mientras que las estimaciones más amplias de exceso de
+          mortalidad sugieren que el número real pudo superar los 14 millones.
+        </p>
+        <img src="img/Mortandad/Mortandad.jpg" />
+      </section>
+      <section>
+        <h3>Impacto global</h3>
+        <p>
+          La pandemia afectó de manera desigual a distintas regiones, con sistemas sanitarios más
+          frágiles experimentando tasas de mortalidad más elevadas debido a la saturación
+          hospitalaria y la dificultad de acceso a atención oportuna.
+        </p>
+      </section>
+      <section>
+        <h3>Diferencias entre países</h3>
+        <p>
+          Las variaciones en la calidad de los registros oficiales, la cantidad de pruebas
+          realizadas y la capacidad de seguimiento epidemiológico hicieron que las cifras finales
+          variaran ampliamente entre países.
+        </p>
+      </section>
+      <section>
+        <h3>Factores demográficos</h3>
+        <p>
+          Las poblaciones con mayor proporción de personas adultas mayores registraron un impacto
+          mucho más severo, ya que la edad avanzada fue uno de los principales factores asociados
+          al riesgo de muerte por COVID-19.
+        </p>
+      </section>
+      <section>
+        <h3>Importancia del exceso de mortalidad</h3>
+        <p>
+          El concepto de exceso de mortalidad permitió medir mejor el impacto real, incluyendo
+          muertes causadas indirectamente por la pandemia, como limitaciones en la atención de
+          otras enfermedades.
+        </p>
+      </section>
+      <section>
+        <h3>Factores que aumentan el riesgo de muerte</h3>
+        <ul>
+          <li>Edad avanzada.</li>
+          <li>Enfermedades crónicas preexistentes.</li>
+          <li>Acceso limitado a servicios de salud.</li>
+          <li>Alta circulación de variantes más transmisibles.</li>
+          <li>Condiciones socioeconómicas desfavorables.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Formas de reducir el riesgo durante una pandemia</h3>
+        <ul>
+          <li>Vacunación y refuerzos cuando están disponibles.</li>
+          <li>Acceso temprano a atención médica adecuada.</li>
+          <li>Medidas de prevención comunitaria cuando son necesarias.</li>
+          <li>Protección reforzada para grupos vulnerables.</li>
+          <li>Monitoreo y transparencia en los datos sanitarios.</li>
+        </ul>
+      </section>
+    </main>
+  )
+}
+
+export default Mortandad
