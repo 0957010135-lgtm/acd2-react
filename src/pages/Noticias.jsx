@@ -11,7 +11,7 @@ function Noticias() {
         </header>
         <article>
           <a href="https://www.telemundowashingtondc.com/noticias/salud/fda-vacunas-covid-19-ninos-memorando-expertos/2356268/" target="_blank">
-            <img src="img/Noticias/Noticias Recientes/FDA dice que vacunas contra el COVID-19 mataron a 10 niños; expertos lo contradicen.webp" />
+            <img src="img/Noticias/Noticias Recientes/noticia 1.webp" />
           </a>
           <div>
             <header>
@@ -31,7 +31,7 @@ function Noticias() {
         </article>
         <article>
           <a href="https://www.bbc.com/mundo/articles/c8636434vpdo" target="_blank">
-            <img src="img/Noticias/Noticias Recientes/5 años de la pandemia 4 aspectos positivos que nos dejó el mayor experimento psicológico de la historia.webp" />
+            <img src="img/Noticias/Noticias Recientes/noticia 2.webp" />
           </a>
           <div>
             <header>
@@ -51,7 +51,7 @@ function Noticias() {
         </article>
         <article>
           <a href="https://www.agenciasinc.es/Noticias/Una-vacuna-intranasal-experimental-elimina-el-virus-de-la-covid-19-en-ratones" target="_blank">
-            <img src="img/Noticias/Noticias Recientes/Una vacuna intranasal experimental elimina el virus de la covid-19 en ratones.jpg" />
+            <img src="img/Noticias/Noticias Recientes/noticia 3.jpg" />
           </a>
           <div>
             <header>
@@ -93,7 +93,7 @@ function Noticias() {
         </header>
         <article>
           <a href="https://news.un.org/es/story/2024/10/1533396" target="_blank">
-            <img src="img/Noticias/Noticias Destacadas/Acabemos con la «amnesia colectiva» sobre el COVID-19.jpg" />
+            <img src="img/Noticias/Noticias Destacadas/noticia 1.jpg" />
             <header>
               <h3>
                 Acabemos con la «amnesia colectiva» sobre el COVID-19
@@ -103,7 +103,7 @@ function Noticias() {
         </article>
         <article>
           <a href="https://www.unotv.com/estados/baja-california-sur/este-sabado-aplicaran-vacunas-contra-influenza-covid-19-y-mas-en-la-paz/" target="_blank">
-            <img src="img/Noticias/Noticias Destacadas/Este sábado aplicarán vacunas contra influenza, COVID-19 y más en La Paz.jpg" />
+            <img src="img/Noticias/Noticias Destacadas/noticia 2.jpg" />
             <header>
               <h3>
                 Este sábado aplicarán vacunas contra influenza, COVID-19 y más en La Paz
